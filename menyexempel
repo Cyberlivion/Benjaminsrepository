@@ -1,137 +1,135 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
+<!DOCTYPE html> <html> <head>
 
-    <title>Exempel 1 navigation bar</title> 
+<title>Exempel 1 navigation bar</title>
 
-    <meta charset = "utf-8" /> 
+<meta charset = "utf-8" />
 
-    <link href = "navigation.css" rel="stylesheet" type="text/css" /> 
+<link href = "css/navigation.css" rel="stylesheet" type="text/css" />
 
-</head> 
+</head>
 
-<body> 
+<body>
 
-<!--wrapper börjar--> 
+<!--wrapper börjar-->
 
-    <div class="wrapper"> 
+<div class="wrapper">
 
-    <header class="header"> 
+<header class="header">
 
-        <h1>Min första hemsida</h1> 
+<h1>Min första hemsida</h1>
 
-    </header> 
+</header>
 
-    <header class="mainmenu"> 
+<header class="mainmenu">
 
-        <ul> 
+<ul>
 
-            <li><a href="home.html">Hem</a></li> 
+<li><a href="home.html">Hem</a></li>
 
-            <li><a href="news.html">Nyheter</a></li> 
+<li><a href="news.html">Nyheter</a></li>
 
-            <li><a href="contacts.html">kontakt</a></li> 
+<li><a href="contacts.html">kontakt</a></li>
 
-            <li><a href="about.html">Om</a></li> 
+<li><a href="about.html">Om</a></li>
 
-        </ul> 
+</ul>
 
-    </header> 
+</header>
 
-    <div class="wrapper_2col"> 
+<div class="wrapper_2col">
 
-    <div class="leftcol"> 
+<div class="leftcol">
 
-      <p> 
+<p>
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id erat 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id erat
 
-      et elit blandit lobortis a a neque. Fusce lacus nisi, vulputate quis vulputate 
+et elit blandit lobortis a a neque. Fusce lacus nisi, vulputate quis vulputate
 
-      vel, aliquam vitae libero. Sed congue ligula quis turpis tincidunt ut 
+vel, aliquam vitae libero. Sed congue ligula quis turpis tincidunt ut
 
-      ultrices ante feugiat. Sed semper tortor fermentum ligula fringilla tristique. 
+ultrices ante feugiat. Sed semper tortor fermentum ligula fringilla tristique.
 
-      Mauris lacinia venenatis commodo. Curabitur scelerisque pharetra facilisis. 
+Mauris lacinia venenatis commodo. Curabitur scelerisque pharetra facilisis.
 
-      Donec et iaculis nunc. Curabitur rhoncus iaculis diam, rutrum faucibus 
+Donec et iaculis nunc. Curabitur rhoncus iaculis diam, rutrum faucibus
 
-      magna cursus in. Vestibulum eu consectetur magna. 
+magna cursus in. Vestibulum eu consectetur magna.
 
-      </p> 
+</p>
 
-      <p> 
+<p>
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue id 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue id
 
-        leo scelerisque hendrerit non non dui. Integer condimentum quam sed tellus 
+leo scelerisque hendrerit non non dui. Integer condimentum quam sed tellus
 
-        ultricies a aliquam elit ornare. Curabitur ac libero et sapien feugiat 
+ultricies a aliquam elit ornare. Curabitur ac libero et sapien feugiat
 
-        porta vitae sed lorem. In faucibus imperdiet neque, sit amet accumsan 
+porta vitae sed lorem. In faucibus imperdiet neque, sit amet accumsan
 
-        ante elementum tincidunt. Proin tincidunt massa at leo tincidunt consectetur. 
+ante elementum tincidunt. Proin tincidunt massa at leo tincidunt consectetur.
 
-        Sed consectetur ornare libero a sagittis. Pellentesque aliquet ipsum ante. 
+Sed consectetur ornare libero a sagittis. Pellentesque aliquet ipsum ante.
 
-        Sed eget tellus dui, eget sodales lectus. 
+Sed eget tellus dui, eget sodales lectus.
 
-      </p> 
+</p>
 
-    </div><!--leftcol slutar--> 
+</div><!--leftcol slutar-->
 
-    <div class="rightcol"> 
+<div class="rightcol">
 
-      <p> 
+<p>
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id erat 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id erat
 
-        et elit blandit lobortis a a neque. Fusce lacus nisi, vulputate quis vulputate 
+et elit blandit lobortis a a neque. Fusce lacus nisi, vulputate quis vulputate
 
-        vel, aliquam vitae libero. Sed congue ligula quis turpis tincidunt ut 
+vel, aliquam vitae libero. Sed congue ligula quis turpis tincidunt ut
 
-        ultrices ante feugiat. Sed semper tortor fermentum ligula fringilla tristique. 
+ultrices ante feugiat. Sed semper tortor fermentum ligula fringilla tristique.
 
-        Mauris lacinia venenatis commodo. Curabitur scelerisque pharetra facilisis. 
+Mauris lacinia venenatis commodo. Curabitur scelerisque pharetra facilisis.
 
-        Donec et iaculis nunc. Curabitur rhoncus iaculis diam, rutrum faucibus 
+Donec et iaculis nunc. Curabitur rhoncus iaculis diam, rutrum faucibus
 
-        magna cursus in. Vestibulum eu consectetur magna. 
+magna cursus in. Vestibulum eu consectetur magna.
 
-      </p> 
+</p>
 
-      <p><img src="img/andreas.jpg" height="300" width="201" alt="Foto" /> 
+<p><img src="img/andreas.jpg" height="300" width="201" alt="Foto" />
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue id 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue id
 
-        leo scelerisque hendrerit non non dui. Integer condimentum quam sed tellus 
+leo scelerisque hendrerit non non dui. Integer condimentum quam sed tellus
 
-        ultricies a aliquam elit ornare. Curabitur ac libero et sapien feugiat 
+ultricies a aliquam elit ornare. Curabitur ac libero et sapien feugiat
 
-        porta vitae sed lorem. In faucibus imperdiet neque, sit amet accumsan 
+porta vitae sed lorem. In faucibus imperdiet neque, sit amet accumsan
 
-        ante elementum tincidunt. Proin tincidunt massa at leo tincidunt consectetur. 
+ante elementum tincidunt. Proin tincidunt massa at leo tincidunt consectetur.
 
-        Sed consectetur ornare libero a sagittis. Pellentesque aliquet ipsum ante. 
+Sed consectetur ornare libero a sagittis. Pellentesque aliquet ipsum ante.
 
-        Sed eget tellus dui, eget sodales lectus. 
+Sed eget tellus dui, eget sodales lectus.
 
-      </p> 
+</p>
 
-      <div class="push"></div> 
+<div class="push"></div>
 
-    </div><!--rightcol slutar--> 
+</div><!--rightcol slutar-->
 
-    </div><!--wrapper2col slutar--> 
+</div><!--wrapper2col slutar-->
 
-    <footer class="footer"> 
+<footer class="footer">
 
-      <p>All rights reserved - &#169; Copyright</p> 
+<p>All rights reserved - &#169; Copyright</p>
 
-    </footer> 
+</footer>
 
-    </div><!--wrapper slutar--> 
+</div><!--wrapper slutar-->
 
-  </body> 
+</body>
 
-</html> 
+</html>
