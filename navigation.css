@@ -3,9 +3,9 @@ ul {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #b5b5b5;
+    background-color: red;
     position: fixed;
-    overflow: auto;
+    overflow: hidden;
     border: 1px solid #555;
 }
 li a {
@@ -16,10 +16,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #ffdf00;
-    color: white;
+    background-color: #111;
 }
 li {
-    text-align: center;
-    border-bottom: 1px solid #555;
+   float: left;
     }
