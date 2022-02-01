@@ -18,7 +18,8 @@ li a {
 
 li a:hover {
     background-color: #ffdf00;
-    color: white:
+    color: white;
+}
 li {
     text-align: center;
     border-bottom: 1px solid #555;
